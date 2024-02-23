@@ -10,7 +10,7 @@ Welcome to my CSS learning repository! 🚀 I'm currently exploring the wonderfu
 
 ## Learning Resources
 
-📺 **Video Tutorial:** [Link to Apna College CSS Tutorial](https://youtu.be/ESnrn1kAD4E?si=zC70-sojnt9Pj0nN)
+📺 **Video Tutorial:** [Link to Apna College CSS Tutorial](https://youtu.be/ESnrn1kAD4E?si=7ey3V-vJttDrsCo1)
 
 Feel free to explore the code, provide feedback, or join me on this exciting learning journey!
 
