@@ -2,12 +2,6 @@
 
 Welcome to my CSS learning repository! 🚀 I'm currently exploring the wonderful world of Cascading Style Sheets (CSS) with the help of Apna College.
 
-## What's Inside?
-
-- **Code Examples:** Explore various CSS concepts through code snippets.
-- **Projects:** Check out the projects I'm working on to apply and enhance my CSS skills.
-- **Resources:** Find helpful links, documentation, and reference materials.
-
 ## Learning Resources
 
 📺 **Video Tutorial:** [Link to Apna College CSS Tutorial](https://youtu.be/ESnrn1kAD4E?si=7ey3V-vJttDrsCo1)
