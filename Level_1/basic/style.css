@@ -1,16 +1,29 @@
-body{
-    background-color: rgb(2, 48, 71);
+/* css work on down to top priority 
+    example:
+*/
+* {
+    color:blue;
 }
-h1 {
-    color :rgb(251, 133, 0);
+
+h1{
+    color:brown;
+}
+
+#myid{
+    color: violet;
+}
+
+.myclass{
+    color: purple;
+}
+
+strong {
+    color: orange;
 }
 
 p {
-    color:rgb(33, 158, 188);
+    color: green;
 }
 
-button {
-    /* We can also change background color of button using backgroun-color property */
-    color: #ff006e;
-    background-color: rgb(142, 202, 230);
-}
+/* Id: It should be unique like student has unique id in college
+   class: It can be common like all student has common class like class A,B etc */
