@@ -1,0 +1,49 @@
+/* Display Property :
+    display: inline/block/inline-block/none
+        -inline: Takes only the space required by the elements. (no margin/padding)
+        -block: Takes full spaces available in width.
+        -inline-block: Sima\ilar to inline but we can set margin and padding.
+        -none: To remove element from document  flow. (no spcae are left for the element) */
+
+/* Visibility : similar to display: none but here there are space are left for the element
+        -visibility:hidden; */
+
+
+/* Alpha Channel: opacity (0 - 1) 
+        -rgba (255,0 */
+div{
+    padding: 50px;
+    margin: 25px;
+}
+
+ .box1{
+    background-color: red;
+    display: inline;
+}
+.box2 {
+    background-color: green;
+    display: block;
+    visibility: hidden;
+}
+.box3{
+    background-color: blue;
+    display: none;
+}
+.box4 {
+    background-color: brown;
+    display: inline-block;
+}
+.box5,.box6,.box7 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+.box5 {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+.box6 {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.box7 {
+    background-color: rgba(0, 0, 255, 1);
+}
