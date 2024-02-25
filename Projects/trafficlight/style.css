@@ -1,0 +1,44 @@
+body {
+    background-color: orange;
+}
+#main {
+    margin: 100px 45.5% ;
+}
+#main {
+    height: 400px;
+    width: 150px;
+    background-color: black;
+    padding: 22px;
+    
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+#red, #yellow, #green {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 11px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+#red  {
+    background-color: red;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}
+
+#stand {
+    background-color: black;
+    height: 600px;
+    width: 50px;
+    margin: 50%;
+    margin-top: 0px;
+}
