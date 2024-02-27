@@ -1,0 +1,14 @@
+/* 
+ Background-img : It used to set background image 
+
+ background-size : It used to change the size of background image.
+        -background-size : cover / conatain / auto
+*/
+
+.venom { 
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    /* contain : repeat it self */
+}
