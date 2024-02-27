@@ -1,0 +1,17 @@
+.nature {
+    position: fixed;
+    /* In absolute their is no space in document for that */
+    top: 50px;
+    right: 0px;
+    width: 640PX;
+    height: 398PX;
+    background-image: url(tree-736885_640.jpg);
+    
+}
+.nat {
+    padding-top: 199px;
+    color: white;
+    text-align: center;
+    font-weight:bold ;
+    font-size: larger;
+}
