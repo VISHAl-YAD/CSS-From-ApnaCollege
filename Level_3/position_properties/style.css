@@ -1,0 +1,65 @@
+/* 
+ Position : The positon CSS property sets how an element is positioned in a document.
+        -Position : static / relative / absoulte / fixed / sticky
+
+            -staic:default position (The top,right,bottom,left and z- index properties have no effect)
+
+            -relative:element is relative to itself. (The top,right,bottom,left and z index will work)
+
+            -absolute:positioned relative to its closet positioned ancestor (parent). (removed from flow)
+
+            -fixed:positioned relative to browser. (removed from flow)
+
+            -sticky:positioned based on user's scroll position.
+
+            - Z-index : It decides the stack level of elements. Overlapping elements with a larger z-index cover those with a samller one.
+
+                z-index : auto (0) / 1 / 2 / -1 / -2....
+
+*/
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.box1 {
+    position: static;
+    /* No changes occurs */
+    height: 100px;
+}
+
+.box2 {
+    /* relative to itself */
+    position: relative;
+    left: 25px;
+    /* z-index */
+    z-index: 1;
+}
+
+.box3 {
+    position: absolute;
+    /* relative to ancestor (parent here it is (body) */
+    top:10px ;
+}
+.box4 {
+    /* relative to browser */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+
+}
+.box5 { 
+    
+    position:sticky;
+    /* it get fixed while scrolling  */
+    background-color: brown;
+    /* margin-left: 100px; */
+    right: 200px;
+    top: 20px;
+    
+}
