@@ -1,0 +1,48 @@
+/* Solution for Q1 :
+
+.navbar {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+li {
+
+    list-style-type: none;
+    background-color: blueviolet;
+    padding: 3px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+} */
+
+/* Q2 Solution: */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
