@@ -1,0 +1,42 @@
+/* 
+ CSS Transform : Used to apply 2D and 3D transformation to an element.
+    -rotate : 
+        tranformation : rotate(45deg);
+
+
+        roateX:45deg;
+        roateY:45deg;
+        roateZ:45deg;
+*/
+/* 
+ Translate : 
+    transform : translte(20px);
+    transform : translate(20px, 50px);
+    transform : translateX(20px);
+    transform : translateY(50px);
+*/
+
+div {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    color: white;
+    
+    /* transform: rotate(45deg); */
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transition: all 0.5s ease-in-out 0.1s ;
+    
+    
+}
+
+div:hover {
+    background-color: pink;
+    color: #008080;
+    font-size: larger;
+    /* transform: scale(2); */
+    transform: rotate(360deg);
+    transform: translate(50px,50px);
+    transform: skew(90deg);
+}
